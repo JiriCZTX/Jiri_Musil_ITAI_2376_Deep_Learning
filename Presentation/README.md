@@ -1,35 +1,15 @@
 # Portfolio Presentation
 
-This folder is reserved for the portfolio presentation deck (3–5 slides) that accompanies the repository per the assignment guidelines.
+The 5-slide portfolio deck for ITAI 2376 — Spring 2026.
 
-## Naming Convention
+## File
 
-Following the assignment guidelines, the presentation file should be named:
+- **[Pf_Jiri_Musil_ITAI2376.pdf](Pf_Jiri_Musil_ITAI2376.pdf)** — 5 slides, ~545 KB
 
-```
-Pf_Jiri_Musil_ITAI2376.pdf
-```
+## Slide Outline
 
-(or `.pptx` if submitted in PowerPoint format)
-
-## Suggested Content
-
-Per the course assignment, the deck should follow either the **Portfolio Summary Approach** or the **Pitch Deck Approach**.
-
-### Portfolio Summary Approach
-- **Slide 1 — Introduction:** name, program, AI specialization, link to this GitHub portfolio.
-- **Slide 2 — Learning Journey:** visual timeline of the ITAI 2376 modules and labs, technologies mastered.
-- **Slide 3 — Featured Projects:** highlight 2–3 most significant projects (recommended: Lab 05 RNN vs Transformer vs ViT comparison, the Midterm Blueprint, and the Final Multi-Agent Workforce Intelligence System).
-- **Slide 4 — Skills & Competencies:** technical skills (PyTorch, Transformers, multi-agent systems, agent orchestration, evaluation rigor), domain knowledge (energy industry workforce planning).
-- **Slide 5 — Reflection & Next Steps:** what I learned, future learning goals (SHAP, survival analysis, production HRIS connectors), professional contact info.
-
-### Pitch Deck Approach
-- **Slide 1 — Professional Introduction:** name, AI specialization area, professional tagline, GitHub + LinkedIn.
-- **Slide 2 — Value Proposition:** what makes me unique (HR domain expertise + applied AI engineering, focus on auditable systems for high-stakes domains).
-- **Slide 3 — Project Showcase:** the Multi-Agent Workforce Intelligence System — problem, approach, quantified results, architecture diagram.
-- **Slide 4 — Technical Arsenal:** PyTorch, Hugging Face, CrewAI, multi-agent orchestration, evaluation frameworks (NIST AI RMF, EU AI Act).
-- **Slide 5 — Call to Action:** what I am seeking, how my skills translate to business value, contact info.
-
-## Notes
-
-The presentation will be added separately by the portfolio author and is not included in this initial repository setup.
+1. **Cover** — Name, program (Applied AI & Robotics, Houston Community College), focus (multi-agent systems, NLP, forecasting), stack (PyTorch, HF Transformers, CrewAI), GitHub link.
+2. **Coursework Journey** — 16-week timeline across 11 modules: L02 (Neural Networks from Scratch), L03 (CNN), A01 (DL Tools & Frameworks), A02 (Neural Network Zoo), L05 (RNNs & Transformers), A03 (DL for an 11-Year-Old), A04 (Arrival NLP), L08 (Diffusion Models), L09 (Cart-Pole RL), Midterm (AI Agent Blueprint), Final (Workforce Intelligence).
+3. **Featured Project — Workforce Intelligence** — Two-agent system for talent and attrition: Agent 01 (DistilBERT + GLiNER + ModernBERT routed NER + SBERT semantic match) and Agent 02 (Bi-LSTM attrition forecasting). Proprietary brain (6 scenarios) with optional CrewAI + Claude path. Stats: 200 synthetic test workforce, 8 departments, 840 adjudicated dev spans, 3.1% monthly attrition tracked.
+4. **Skills & Competencies** — Four quadrants: Deep models (CNN, RNN/LSTM, Transformer, Bi-LSTM, Diffusion, DQN), NLP & agents (NER, sentence embeddings, multi-agent orchestration, prompting & tooling, RL), Frameworks & tools (PyTorch, HF Transformers, Sentence-Transformers, Gymnasium, Pandas/NumPy, Streamlit/Plotly), Practice & craft (evaluation design, technical writing, group collaboration, translating to non-experts, reproducible notebooks).
+5. **Reflection & Next Steps** — Quote-style reflection plus "What's Next" goals: extend Workforce Intelligence to public datasets, continue RL past CartPole, take ITAI 2373 (NLP) and ITAI 3377 (Edge AI and IoT), open to engineering, research, and collaborator roles.
