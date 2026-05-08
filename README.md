@@ -10,7 +10,7 @@
 
 I am Jiri Musil, a People Strategy Lead at ABB's Energy Industries division in Houston, currently completing the Applied AI and Robotics program at Houston City College. My professional focus is workforce planning, HR business partnering, and AI deployment in highly regulated, audited domains. The projects in this portfolio reflect both the deep learning fundamentals taught in ITAI 2376 and an applied perspective on building AI systems that hold up under real-world scrutiny.
 
-- **Email:** jiri.musil@students.hccs.edu
+- **Email:** W216916125@student.hccs.edu
 - **Course:** ITAI 2376 — Deep Learning Artificial Intelligence
 - **Institution:** Houston City College, AI & Robotics Program
 
