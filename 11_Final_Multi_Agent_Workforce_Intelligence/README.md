@@ -12,6 +12,12 @@ This is the capstone of my ITAI 2376 work. The system takes resumes, job descrip
 
 The target user is a **People Strategy Lead, an HR Business Partner, or a CHRO** at a large energy company. The system was designed to address the specific gap that Accenture flagged at CERAWeek 2026: only 8% of energy organizations have meaningful skills visibility, while 85% of executives believe AI will transform their business and only 18% see tangible benefits. This system targets that visibility gap directly — it knows what skills a candidate has and what skills a team is about to lose, and it produces a hiring recommendation that integrates both.
 
+## Boardroom Dashboard
+
+![Workforce Intelligence Dashboard — Streamlit + Plotly](dashboard.png)
+
+The Streamlit + Plotly dashboard is the operator-facing surface of the system. Headline KPIs (total headcount, active divisions, employee sentiment score, monthly attrition) sit at the top, followed by the live system architecture view that shows both agents (Talent Intelligence with the routed NER ensemble + SBERT matching, and Workforce Forecasting with the Bi-LSTM attrition model) communicating through the proprietary brain. The bottom panels show twelve months of headcount trajectory by department alongside the current workforce composition, so a CHRO can see *what is happening now* and *what is about to happen* on a single screen. The example shown is the Energy Industry profile (eight departments, 200 total headcount, 3.7/5 average satisfaction, 3.1% monthly attrition rate); the dashboard supports industry switching and a learning-engine toggle for adaptive runs.
+
 ## What the System Does
 
 - **Resume + job description analysis.** Routed NER ensemble extracts skills, tools, certifications, degrees, employers, years of experience, industry, location, projects, and soft skills. Sentence-BERT semantic match plus Hungarian assignment produces a 19-signal skill gap analysis that names the specific missing skills and certifications instead of a generic match score.
@@ -118,6 +124,7 @@ Three extensions ranked by significance for a real ABB pilot:
 ## Files
 
 - `Final_Project_Report_Musil.pdf` — full 10-page report including architecture, model details, evaluation rigor, integrity check, lessons learned, and 18 references
+- `dashboard.png` — screenshot of the boardroom dashboard (Energy Industry profile)
 
 The complete codebase (~21 tools, the `brain.py` orchestrator, `agents.py` CrewAI path, `feedback.py` memory layer, the canonical sidecar, evaluation pipeline, Streamlit dashboard, and full provenance logs) is hosted in the project's working repository. The PDF report describes the architecture, results, and integrity check at a level appropriate for portfolio review.
 
